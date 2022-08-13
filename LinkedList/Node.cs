@@ -64,9 +64,9 @@
 
         public void Print() 
         {
+            Node temp = head;
             while (!IsNull())
             {
-                Node temp = head;
                 Console.WriteLine(temp.Value);
                 temp = temp.Next;
             }
